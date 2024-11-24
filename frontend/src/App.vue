@@ -115,9 +115,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  @apply bg-gray-900 text-white;
-}
 
 /* Gradient animation for logo text */
 @keyframes gradient {

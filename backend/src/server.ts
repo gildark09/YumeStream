@@ -4,7 +4,6 @@ import dotenv from 'dotenv';
 import axios from 'axios';
 import NodeCache from 'node-cache';
 import streamingService from './services/streamingService';
-import { parse as parseM3u8 } from 'm3u8-parser';
 import rateLimit from 'express-rate-limit';
 
 dotenv.config();
